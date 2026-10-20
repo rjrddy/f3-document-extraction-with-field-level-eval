@@ -1,0 +1,17 @@
+{
+  "invoice-a": {
+    "id": 1.0,
+    "date": 1.0,
+    "total": 1.0
+  },
+  "invoice-b": {
+    "id": 1.0,
+    "date": 1.0,
+    "total": 1.0
+  },
+  "statement": {
+    "id": 1.0,
+    "date": 1.0,
+    "total": 1.0
+  }
+}

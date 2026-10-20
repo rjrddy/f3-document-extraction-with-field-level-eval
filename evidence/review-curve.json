@@ -1,0 +1,32 @@
+[
+  {
+    "threshold": 0,
+    "review_rate": 0.0,
+    "auto_accuracy": 1.0
+  },
+  {
+    "threshold": 70,
+    "review_rate": 0.0,
+    "auto_accuracy": 1.0
+  },
+  {
+    "threshold": 85,
+    "review_rate": 0.0,
+    "auto_accuracy": 1.0
+  },
+  {
+    "threshold": 90,
+    "review_rate": 0.0,
+    "auto_accuracy": 1.0
+  },
+  {
+    "threshold": 95,
+    "review_rate": 0.6666666666666667,
+    "auto_accuracy": 1.0
+  },
+  {
+    "threshold": 99,
+    "review_rate": 1.0,
+    "auto_accuracy": null
+  }
+]

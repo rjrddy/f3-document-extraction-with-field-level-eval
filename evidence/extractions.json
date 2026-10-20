@@ -1,0 +1,482 @@
+[
+  {
+    "document": 0,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0000",
+      "date": "2026-01-01",
+      "total": "6411.97"
+    },
+    "actual": {
+      "id": "SYN-0000",
+      "date": "2026-01-01",
+      "total": "6411.97"
+    },
+    "confidence": 94.45454545454545,
+    "correct": true
+  },
+  {
+    "document": 1,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0001",
+      "date": "2026-01-02",
+      "total": "2301.72"
+    },
+    "actual": {
+      "id": "SYN-0001",
+      "date": "2026-01-02",
+      "total": "2301.72"
+    },
+    "confidence": 94.0,
+    "correct": true
+  },
+  {
+    "document": 2,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0002",
+      "date": "2026-01-03",
+      "total": "1026.11"
+    },
+    "actual": {
+      "id": "SYN-0002",
+      "date": "2026-01-03",
+      "total": "1026.11"
+    },
+    "confidence": 95.0,
+    "correct": true
+  },
+  {
+    "document": 3,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0003",
+      "date": "2026-01-04",
+      "total": "3998.75"
+    },
+    "actual": {
+      "id": "SYN-0003",
+      "date": "2026-01-04",
+      "total": "3998.75"
+    },
+    "confidence": 94.54545454545455,
+    "correct": true
+  },
+  {
+    "document": 4,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0004",
+      "date": "2026-01-05",
+      "total": "3967.38"
+    },
+    "actual": {
+      "id": "SYN-0004",
+      "date": "2026-01-05",
+      "total": "3967.38"
+    },
+    "confidence": 94.27272727272727,
+    "correct": true
+  },
+  {
+    "document": 5,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0005",
+      "date": "2026-01-06",
+      "total": "4285.94"
+    },
+    "actual": {
+      "id": "SYN-0005",
+      "date": "2026-01-06",
+      "total": "4285.94"
+    },
+    "confidence": 95.18181818181819,
+    "correct": true
+  },
+  {
+    "document": 6,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0006",
+      "date": "2026-01-07",
+      "total": "9501.10"
+    },
+    "actual": {
+      "id": "SYN-0006",
+      "date": "2026-01-07",
+      "total": "9501.10"
+    },
+    "confidence": 94.54545454545455,
+    "correct": true
+  },
+  {
+    "document": 7,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0007",
+      "date": "2026-01-08",
+      "total": "5405.19"
+    },
+    "actual": {
+      "id": "SYN-0007",
+      "date": "2026-01-08",
+      "total": "5405.19"
+    },
+    "confidence": 94.36363636363636,
+    "correct": true
+  },
+  {
+    "document": 8,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0008",
+      "date": "2026-01-09",
+      "total": "3814.47"
+    },
+    "actual": {
+      "id": "SYN-0008",
+      "date": "2026-01-09",
+      "total": "3814.47"
+    },
+    "confidence": 95.27272727272727,
+    "correct": true
+  },
+  {
+    "document": 9,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0009",
+      "date": "2026-01-10",
+      "total": "7685.78"
+    },
+    "actual": {
+      "id": "SYN-0009",
+      "date": "2026-01-10",
+      "total": "7685.78"
+    },
+    "confidence": 94.45454545454545,
+    "correct": true
+  },
+  {
+    "document": 10,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0010",
+      "date": "2026-01-11",
+      "total": "9461.04"
+    },
+    "actual": {
+      "id": "SYN-0010",
+      "date": "2026-01-11",
+      "total": "9461.04"
+    },
+    "confidence": 94.36363636363636,
+    "correct": true
+  },
+  {
+    "document": 11,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0011",
+      "date": "2026-01-12",
+      "total": "7511.71"
+    },
+    "actual": {
+      "id": "SYN-0011",
+      "date": "2026-01-12",
+      "total": "7511.71"
+    },
+    "confidence": 95.18181818181819,
+    "correct": true
+  },
+  {
+    "document": 12,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0012",
+      "date": "2026-01-13",
+      "total": "7875.34"
+    },
+    "actual": {
+      "id": "SYN-0012",
+      "date": "2026-01-13",
+      "total": "7875.34"
+    },
+    "confidence": 94.45454545454545,
+    "correct": true
+  },
+  {
+    "document": 13,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0013",
+      "date": "2026-01-14",
+      "total": "4343.37"
+    },
+    "actual": {
+      "id": "SYN-0013",
+      "date": "2026-01-14",
+      "total": "4343.37"
+    },
+    "confidence": 94.0909090909091,
+    "correct": true
+  },
+  {
+    "document": 14,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0014",
+      "date": "2026-01-15",
+      "total": "1850.78"
+    },
+    "actual": {
+      "id": "SYN-0014",
+      "date": "2026-01-15",
+      "total": "1850.78"
+    },
+    "confidence": 95.27272727272727,
+    "correct": true
+  },
+  {
+    "document": 15,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0015",
+      "date": "2026-01-16",
+      "total": "3523.01"
+    },
+    "actual": {
+      "id": "SYN-0015",
+      "date": "2026-01-16",
+      "total": "3523.01"
+    },
+    "confidence": 94.45454545454545,
+    "correct": true
+  },
+  {
+    "document": 16,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0016",
+      "date": "2026-01-17",
+      "total": "6023.60"
+    },
+    "actual": {
+      "id": "SYN-0016",
+      "date": "2026-01-17",
+      "total": "6023.60"
+    },
+    "confidence": 94.18181818181819,
+    "correct": true
+  },
+  {
+    "document": 17,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0017",
+      "date": "2026-01-18",
+      "total": "8652.53"
+    },
+    "actual": {
+      "id": "SYN-0017",
+      "date": "2026-01-18",
+      "total": "8652.53"
+    },
+    "confidence": 95.27272727272727,
+    "correct": true
+  },
+  {
+    "document": 18,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0018",
+      "date": "2026-01-19",
+      "total": "3069.15"
+    },
+    "actual": {
+      "id": "SYN-0018",
+      "date": "2026-01-19",
+      "total": "3069.15"
+    },
+    "confidence": 94.18181818181819,
+    "correct": true
+  },
+  {
+    "document": 19,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0019",
+      "date": "2026-01-20",
+      "total": "808.66"
+    },
+    "actual": {
+      "id": "SYN-0019",
+      "date": "2026-01-20",
+      "total": "808.66"
+    },
+    "confidence": 94.18181818181819,
+    "correct": true
+  },
+  {
+    "document": 20,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0020",
+      "date": "2026-01-21",
+      "total": "2577.33"
+    },
+    "actual": {
+      "id": "SYN-0020",
+      "date": "2026-01-21",
+      "total": "2577.33"
+    },
+    "confidence": 95.27272727272727,
+    "correct": true
+  },
+  {
+    "document": 21,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0021",
+      "date": "2026-01-22",
+      "total": "2802.53"
+    },
+    "actual": {
+      "id": "SYN-0021",
+      "date": "2026-01-22",
+      "total": "2802.53"
+    },
+    "confidence": 94.36363636363636,
+    "correct": true
+  },
+  {
+    "document": 22,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0022",
+      "date": "2026-01-23",
+      "total": "2399.31"
+    },
+    "actual": {
+      "id": "SYN-0022",
+      "date": "2026-01-23",
+      "total": "2399.31"
+    },
+    "confidence": 94.18181818181819,
+    "correct": true
+  },
+  {
+    "document": 23,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0023",
+      "date": "2026-01-24",
+      "total": "4849.10"
+    },
+    "actual": {
+      "id": "SYN-0023",
+      "date": "2026-01-24",
+      "total": "4849.10"
+    },
+    "confidence": 95.0909090909091,
+    "correct": true
+  },
+  {
+    "document": 24,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0024",
+      "date": "2026-01-25",
+      "total": "6372.74"
+    },
+    "actual": {
+      "id": "SYN-0024",
+      "date": "2026-01-25",
+      "total": "6372.74"
+    },
+    "confidence": 94.45454545454545,
+    "correct": true
+  },
+  {
+    "document": 25,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0025",
+      "date": "2026-01-26",
+      "total": "6276.98"
+    },
+    "actual": {
+      "id": "SYN-0025",
+      "date": "2026-01-26",
+      "total": "6276.98"
+    },
+    "confidence": 93.36363636363636,
+    "correct": true
+  },
+  {
+    "document": 26,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0026",
+      "date": "2026-01-27",
+      "total": "3421.84"
+    },
+    "actual": {
+      "id": "SYN-0026",
+      "date": "2026-01-27",
+      "total": "3421.84"
+    },
+    "confidence": 95.36363636363636,
+    "correct": true
+  },
+  {
+    "document": 27,
+    "template": "invoice-a",
+    "truth": {
+      "id": "SYN-0027",
+      "date": "2026-01-28",
+      "total": "7962.89"
+    },
+    "actual": {
+      "id": "SYN-0027",
+      "date": "2026-01-28",
+      "total": "7962.89"
+    },
+    "confidence": 94.45454545454545,
+    "correct": true
+  },
+  {
+    "document": 28,
+    "template": "invoice-b",
+    "truth": {
+      "id": "SYN-0028",
+      "date": "2026-01-01",
+      "total": "1950.95"
+    },
+    "actual": {
+      "id": "SYN-0028",
+      "date": "2026-01-01",
+      "total": "1950.95"
+    },
+    "confidence": 93.81818181818181,
+    "correct": true
+  },
+  {
+    "document": 29,
+    "template": "statement",
+    "truth": {
+      "id": "SYN-0029",
+      "date": "2026-01-02",
+      "total": "9080.09"
+    },
+    "actual": {
+      "id": "SYN-0029",
+      "date": "2026-01-02",
+      "total": "9080.09"
+    },
+    "confidence": 95.0909090909091,
+    "correct": true
+  }
+]

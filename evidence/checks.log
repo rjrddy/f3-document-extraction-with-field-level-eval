@@ -1,0 +1,15 @@
+/Users/rajreddy/dev/outreach/projects/f3-document-extraction-with-field-level-eval/.venv/bin/python -m ruff check src tests
+All checks passed!
+/Users/rajreddy/dev/outreach/projects/f3-document-extraction-with-field-level-eval/.venv/bin/python -m ruff format --check src tests
+2 files already formatted
+/Users/rajreddy/dev/outreach/projects/f3-document-extraction-with-field-level-eval/.venv/bin/python -m pytest -q
+..                                                                       [100%]
+2 passed in 3.86s
+/Users/rajreddy/dev/outreach/projects/f3-document-extraction-with-field-level-eval/.venv/bin/python src/main.py > evidence/bench.json
+{
+  "synthetic_documents": 30,
+  "id_accuracy": 1.0,
+  "date_accuracy": 1.0,
+  "total_accuracy": 1.0,
+  "exact_document_accuracy": 1.0
+}

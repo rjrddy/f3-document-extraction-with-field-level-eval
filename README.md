@@ -1,19 +1,25 @@
 1. Extract fields from synthetic invoices/bank statements; measure accuracy per field and per template, route low confidence to review.
 
 2. Result:
-   Acceptance: not measured  
-   Performance: not measured  
-   Correctness: not measured
+   Synthetic documents OCR evaluated: 30  
+   Document-ID accuracy: 1.0  
+   Total-amount accuracy: 1.0  
+
+   Measured with `make bench`: [raw results](evidence/bench.json), [command output](evidence/checks.log), [environment](evidence/environment.json).
 
 3. Architecture:
 ```mermaid
 flowchart LR
-    Specification --> AwaitingWaveApproval --> Implementation
+    SyntheticInvoicesAndStatements --> TesseractOCR --> FieldParser --> ConfidenceRouting --> FieldEval
 ```
 
 4. Run it:
-No runnable implementation yet. This is a planned Wave 2 project.
+```sh
+make setup
+make lint test bench
+make demo
+```
 
-5. Decisions and limits: Public repository reserved for independent work using public or synthetic data. Implementation has not started. No company affiliation or usage is claimed. Acceptance check: Per-field accuracy table; review-queue rate vs accuracy tradeoff curve.
+5. Decisions and limits: Synthetic financial records only, with original rendered templates and seeded blur/rotation. Real Tesseract OCR runs on every image. No LLM or real invoice data is used. Accuracy is exact field equality against generated ground truth. Per-field/per-template table: evidence/field-table.md; confidence tradeoff: evidence/review-curve.json and evidence/tradeoff.svg. Confidence is uncalibrated OCR confidence; no auto-approved documents yields null accuracy rather than fabricated success. Install the system tesseract executable before make setup (brew install tesseract on macOS or apt-get install tesseract-ocr on Linux).
 
-6. Next: Implement after approval for Wave 2, then run and publish the required acceptance commands.
+6. Next: Evaluate more layouts, calibrate confidence, and add table/line-item extraction.
